@@ -1,0 +1,276 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000000
+}
+#logo:hover{
+    opacity: 0.7;
+    
+}
+.header{
+    display: flex;
+    background: rgb(31, 34, 48);
+    width: 100vr;
+    padding: 1%;
+    height: 30px;
+    justify-content: space-between;
+}
+.top_menu{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    margin-left: 80px;
+
+    align-self: center;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(117, 116, 116);
+    margin-right: 30px;
+    font-size: 0.8m;
+}
+.nav a:hover{
+    color: #eee;
+    opacity: 0.8;
+}
+.icon_right{
+    color: #eee;
+}
+.go_pro a{
+    color: pink;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.menu_right{
+    display: flex;
+    align-items: center;
+}
+.profile_pic img{
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.profile_pic:hover{
+    opacity: 0.8;
+}
+.form{
+    width: 200px;
+    height: 20px;
+    padding: 4px;
+    margin-top: -10px;
+
+}
+.search_btn{
+    border-radius: 4px;
+    padding: 8px;
+    
+    border: none;
+    height: 16px;
+    font-size: 0.8em;
+}
+.search_btn ::placeholder{
+    margin-left: 20px;
+}
+.icon_search{
+    position: relative;
+    right: -84%;
+    opacity: 0.2;
+}
+.upload{
+    color: #eee;
+    border: 1px solid rgb(124, 123, 123);
+    border-radius: 6px;
+    padding: 4px;
+    display: flex;
+    height: 28px;
+    width: 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon_envelope{
+    margin-right: 20px;
+}
+.menu_right > div > p{
+    font-size: 0.9em;
+    opacity: 0.8;
+
+}
+.menu2{
+    /* margin: 1% 2% ; */
+    background: #fff;
+    height: 64px;
+    padding: 1%;
+    
+}
+.drop_icon{
+    opacity: 0.3;
+    margin-left: 12%;
+}
+.following_btn{
+    border-radius: 6px;
+    padding: 12px;
+    width: 100px;
+    background: none;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: 1px solid #cacaca;
+    /* margin-top: 2%; */
+
+}
+.categories a{
+    text-decoration: none;
+    color: #454545;
+    opacity: 0.8;
+    font-size: 0.9em;
+    padding-right: 30px;
+    position: relative;
+    left: 300px;
+    top: -32px;
+    
+
+}
+.active{
+    background: rgb(172, 208, 241);
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+
+}
+.active, .categories a:hover{
+    background: rgb(172, 208, 241);
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    
+
+
+}
+.sort_btn{
+    border-radius: 6px;
+    padding: 12px;
+    width: 100px;
+    background: none;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: 1px solid #cacaca;
+    float: right;
+    position: relative;
+    top: -80px;
+    right: 86px;
+
+}
+.css_animation{
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(rgb(204, 2, 154), rgb(26, 167, 248));
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-weight: 2em;
+    margin-top: -25px;
+}
+.css_animation h2{
+    font-weight: lighter;
+    font-size: 2em;
+    transform: translate(0%, 90%);
+    z-index: 1;
+   
+
+}
+.moving_squares ul li{
+    position: absolute;
+    border: 2px solid rgb(240, 240, 240);
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+.moving_squares li{
+   
+    top: 50vh;
+    left: 45vw;
+
+}
+.moving_squares li :nth-child(2){
+    top: 30vh;
+    left: 60vw;
+
+}
+.footer{
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    background-image: linear-gradient(#454545, #000);
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.2em;
+    position: absolute;
+    right: 50%;
+    top: 30%;
+
+}
+/* Style for navigaton pag */
+
+.nav_navigationpage{
+    background-image: linear-gradient(45deg, rgb(255, 0, 191), rgb(10, 3, 114));
+    height: 80px;
+    width:100%;
+    padding-right: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+   
+      
+    justify-content: space-between;
+
+}
+.menu_navpage{
+    color: rgb(252, 252, 252);
+    font-size: 2em;
+    padding-left: 20px;
+}
+.social_links_navpage{
+   padding-right: 20px;
+   
+}
+.slinks{
+    padding: 20px;
+    color: #fff;
+    font-size: large;
+}
+
+
+.nav_links_navpage{
+    justify-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav_links_navpage a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    transform: all 0.3s ease 0;
+
+}
+.nav_links_navpage a:hover{
+    transform: all 0.3s ease 0.2;
+    opacity: 0.8;
+}
+.side_menu_navpage {
+    color: #ffffff;
+}
+#side_nav{
+    color: #ffffff;
+    
+}
+#side_nav a{
+    color: #cacaca;
+    text-decoration: none;
+    padding: 10px;
+}
